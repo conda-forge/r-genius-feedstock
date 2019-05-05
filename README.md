@@ -7,7 +7,7 @@ Package license: GPL-2
 
 Feedstock license: BSD 3-Clause
 
-Summary: Easily retrieve song lyrics from Genius <https://genius.com> as tibbles. 
+Summary: Easily access song lyrics in a tidy way.
 
 
 
