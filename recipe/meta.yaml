@@ -1,4 +1,4 @@
-{% set version = "2.2.2" %}
+{% set version = "2.2.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/genius_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/genius/genius_{{ version }}.tar.gz
-  sha256: a9a6f3a78a5e0014ec0c03ec338aec3597ffb17919333664b2e9da55450a56d9
+  sha256: 1e2f23facb8b635a9e29f44f2adf3181b76c860f5d729b195bc8da347cf6460e
 
 build:
   merge_build_host: true  # [win]
